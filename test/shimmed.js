@@ -1,8 +1,11 @@
 'use strict';
 
-require('../shim')();
+require('../auto');
+
+require('../'); // to ensure no side effects
 
 var test = require('tape');
+var keys = require('reflect.ownkeys');
 var defineProperties = require('define-properties');
 var isEnumerable = Object.prototype.propertyIsEnumerable;
 var functionsHaveNames = require('functions-have-names')();
@@ -21,6 +24,8 @@ test('shimmed', function (t) {
 		et.equal(false, isEnumerable.call(Math, 'cbrt'), 'Math.cbrt is not enumerable');
 		et.end();
 	});
+
+	t.match(keys(Math.cbrt).sort().join('|'), /^length|name(|prototype)?$/, 'has no unexpected own keys');
 
 	runTests(Math.cbrt, t);
 
