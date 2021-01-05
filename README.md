@@ -28,14 +28,14 @@ console.log(Math.cbrt(1)); // 1
 ## Tests
 Simply clone the repo, `npm install`, and run `npm test`
 
-[package-url]: https://npmjs.org/package/es-shims/math.cbrt
-[npm-version-svg]: https://versionbadg.es/es-shims/math.cbrt.svg
-[deps-svg]: https://david-dm.org/es-shims/math.cbrt.svg
-[deps-url]: https://david-dm.org/es-shims/math.cbrt
-[dev-deps-svg]: https://david-dm.org/es-shims/math.cbrt/dev-status.svg
-[dev-deps-url]: https://david-dm.org/es-shims/math.cbrt#info=devDependencies
-[npm-badge-png]: https://nodei.co/npm/es-shims/math.cbrt.png?downloads=true&stars=true
-[license-image]: https://img.shields.io/npm/l/es-shims/math.cbrt.svg
+[package-url]: https://npmjs.org/package/math.cbrt
+[npm-version-svg]: https://versionbadg.es/es-shims/Math.cbrt.svg
+[deps-svg]: https://david-dm.org/es-shims/Math.cbrt.svg
+[deps-url]: https://david-dm.org/es-shims/Math.cbrt
+[dev-deps-svg]: https://david-dm.org/es-shims/Math.cbrt/dev-status.svg
+[dev-deps-url]: https://david-dm.org/es-shims/Math.cbrt#info=devDependencies
+[npm-badge-png]: https://nodei.co/npm/math.cbrt.png?downloads=true&stars=true
+[license-image]: https://img.shields.io/npm/l/math.cbrt.svg
 [license-url]: LICENSE
-[downloads-image]: https://img.shields.io/npm/dm/es-shims/math.cbrt.svg
-[downloads-url]: https://npm-stat.com/charts.html?package=es-shims/math.cbrt
+[downloads-image]: https://img.shields.io/npm/dm/math.cbrt.svg
+[downloads-url]: https://npm-stat.com/charts.html?package=math.cbrt
