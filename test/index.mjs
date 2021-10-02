@@ -16,9 +16,9 @@ test('named exports', async (t) => {
 	);
 
 	const { shim, getPolyfill, implementation } = cbrtModule;
-	t.equal(await import('math.cbrt/shim'), shim, 'shim named export matches deep export');
-	t.equal(await import('math.cbrt/implementation'), implementation, 'implementation named export matches deep export');
-	t.equal(await import('math.cbrt/polyfill'), getPolyfill, 'getPolyfill named export matches deep export');
+	t.equal((await import('math.cbrt/shim')).default, shim, 'shim named export matches deep export');
+	t.equal((await import('math.cbrt/implementation')).default, implementation, 'implementation named export matches deep export');
+	t.equal((await import('math.cbrt/polyfill')).default, getPolyfill, 'getPolyfill named export matches deep export');
 
 	t.end();
 });
