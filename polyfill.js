@@ -11,13 +11,13 @@ var withinULPDistance = function withinULPDistance(result, expected) {
 };
 
 module.exports = function getPolyfill() {
-	var native = Math.cbrt;
+	var orig = Math.cbrt;
 	if (
-		!native
+		!orig
 		// Firefox 38 on Windows
-		|| !withinULPDistance(native(1e-300), 1e-100) // eslint-disable-line no-magic-numbers
+		|| !withinULPDistance(orig(1e-300), 1e-100) // eslint-disable-line no-magic-numbers
 	) {
 		return implementation;
 	}
-	return native;
+	return orig;
 };
