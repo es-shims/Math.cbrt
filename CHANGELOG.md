@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.2](https://github.com/es-shims/Math.cbrt/compare/v1.0.1...v1.0.2) - 2022-04-10
+
+### Commits
+
+- [actions] reuse common workflows [`4854f66`](https://github.com/es-shims/Math.cbrt/commit/4854f66c074a990bf411b84d0590134ceaeccdb4)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `@es-shims/api`, `reflect.ownkeys`, `safe-publish-latest`, `tape` [`5f1045f`](https://github.com/es-shims/Math.cbrt/commit/5f1045faa8aec410f76650169c85d6241af8aaca)
+- [actions] update codecov uploader [`d236b38`](https://github.com/es-shims/Math.cbrt/commit/d236b38af53df24b97ac4bd345d56a07b1ae776d)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `tape` [`9880869`](https://github.com/es-shims/Math.cbrt/commit/988086910ceaabf0da4a412e9b803d00b0d93629)
+- [Fix] avoid identifier `native`; it breaks node 0.4 [`f50aaca`](https://github.com/es-shims/Math.cbrt/commit/f50aaca1c97bb8a0e63c2cee19499898c13c3d5a)
+
 ## [v1.0.1](https://github.com/es-shims/Math.cbrt/compare/v1.0.0...v1.0.1) - 2021-10-02
 
 ### Commits
